@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body {
+  background: rgba(0, 0, 0, 1);
+}
+
+/* navbar design */
+header {
+  margin-top: 57px;
+}
+nav {
+  padding: 5px;
+  display: flex;
+  max-width: 1060px;
+  margin: auto;
+  justify-content: space-between;
+}
+nav > p {
+  font-size: 36px;
+  font-weight: 800;
+  color: #e6533c;
+}
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+  padding: 4px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.home-btn {
+  background-color: #e6533c;
+  border-radius: 39px;
+  padding: 8px 20px;
+}
