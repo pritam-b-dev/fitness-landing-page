@@ -34,8 +34,22 @@ nav > div {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 }
+nav > span {
+  margin: auto 0px;
+  display: none;
+}
 .home-btn {
   background-color: #e6533c;
   border-radius: 39px;
   padding: 8px 20px;
+}
+
+/* responsive codes */
+@media screen and (max-width: 576px) {
+  .menu-container {
+    display: none;
+  }
+  nav > span {
+    display: inline;
+  }
 }
