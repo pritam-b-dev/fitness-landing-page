@@ -57,6 +57,8 @@ nav > span {
   justify-content: space-between;
 }
 .banner-left {
+  width: 600px;
+
   display: flex;
   flex-direction: column;
   padding-top: 50px;
